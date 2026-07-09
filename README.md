@@ -46,7 +46,7 @@ storage.mount(storage.VfsFat(sd), "/sd")
 
 ## Throughput
 
-Measured bulk transfer over 4-bit SDIO in CircuitPython. Both boards use this shim with the [Adafruit MicroSD SPI/SDIO breakout (#4682)](https://www.adafruit.com/product/4682).
+Measured bulk transfer over 4-bit SDIO in CircuitPython, using the [Adafruit benchmark setup](https://learn.adafruit.com/microsd-optimization-circuitpython/benchmark-setup). Both boards use this shim with the [Adafruit MicroSD SPI/SDIO breakout (#4682)](https://www.adafruit.com/product/4682).
 
 | Chip     | Board                | Bus  | Clock (MHz) | Write (MB/s) | Read (MB/s) |
 |----------|----------------------|------|:-----------:|:------------:|:-----------:|
