@@ -1,8 +1,8 @@
+![Shim connected to a Feather](pics/shim-connected.jpeg)
+
 # sdio-shim
 
 A direct-connect shim PCB that mates the Adafruit SDIO microSD breakout to a Feather — no breadboard required.
-
-![Shim connected to a Feather](pics/shim-connected.jpeg)
 
 ## About
 
