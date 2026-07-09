@@ -58,13 +58,6 @@ Measured bulk transfer over 4-bit SDIO in CircuitPython. Both boards use this sh
 ### Assembled
 ![Assembled shim with headers](pics/shim-asm.JPG)
 
-| Feather | SDIO | Feather | SDIO |
-|---------|------|---------|------|
-| 3V      | Power | A2     | DAT2 |
-| GND     | Ground | A3    | DAT3 |
-| A0      | DAT0 | D24     | CLK  |
-| A1      | DAT1 | D25     | CMD  |
-
 ### Blank
 ![Blank fabricated PCB](pics/shim-blank.JPG)
 
