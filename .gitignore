@@ -1,0 +1,10 @@
+# KiCad backups & autosave
+kicad/sdio-shim-backups/
+*-bak
+*.kicad_pcb-bak
+*.kicad_sch-bak
+_autosave-*
+fp-info-cache
+
+# OS junk
+.DS_Store
