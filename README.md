@@ -44,6 +44,15 @@ sd = sdioio.SDCard(
 storage.mount(storage.VfsFat(sd), "/sd")
 ```
 
+## Throughput
+
+Measured bulk transfer over 4-bit SDIO in CircuitPython (best-of-3, 4 KB × 16 blocks):
+
+| Board             | SDIO clock | Write (MB/s) | Read (MB/s) |
+|-------------------|:----------:|:------------:|:-----------:|
+| Feather RP2350    | 25 MHz     | ~10.3        | ~8.7        |
+| Feather ESP32-S3  | 40 MHz     | ~4.5         | ~7.1        |
+
 ## Photos & board files
 
 ### Assembled
