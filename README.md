@@ -2,6 +2,8 @@
 
 A direct-connect shim PCB that mates the Adafruit SDIO microSD breakout to a Feather — no breadboard required.
 
+![Shim connected to a Feather](pics/shim-connected.jpeg)
+
 ## About
 
 A simple **passive shim** that routes a Feather's analog-rail pins to an SDIO microSD breakout (Adafruit **#4682** or a fork of it), so a stock 4-bit SDIO card hangs off any Feather **without eating the SPI, UART, or I2C buses**.
@@ -43,9 +45,6 @@ storage.mount(storage.VfsFat(sd), "/sd")
 ```
 
 ## Photos & board files
-
-### Connected
-![Shim connected to a Feather](pics/shim-connected.jpeg)
 
 ### Assembled
 ![Assembled shim with headers](pics/shim-asm.JPG)
