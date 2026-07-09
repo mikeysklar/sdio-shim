@@ -46,12 +46,12 @@ storage.mount(storage.VfsFat(sd), "/sd")
 
 ## Throughput
 
-Measured bulk transfer over 4-bit SDIO in CircuitPython (best-of-3, 4 KB × 16 blocks):
+Measured bulk transfer over 4-bit SDIO in CircuitPython. Both boards use this shim with the [Adafruit MicroSD SPI/SDIO breakout (#4682)](https://www.adafruit.com/product/4682).
 
-| Board             | SDIO clock | Write (MB/s) | Read (MB/s) |
-|-------------------|:----------:|:------------:|:-----------:|
-| Feather RP2350    | 37.5 MHz   | ~14+         | ~14+        |
-| Feather ESP32-S3  | 40 MHz     | ~4.5         | ~7.1        |
+| Chip     | Board                | Bus  | Clock (MHz) | Write (MB/s) | Read (MB/s) |
+|----------|----------------------|------|:-----------:|:------------:|:-----------:|
+| RP2350   | Feather + SDIO Shim  | SDIO | 37.5        | 14.9         | 13.0        |
+| ESP32-S3 | Feather + SDIO Shim  | SDIO | 40          | 4.5          | 7.1         |
 
 ## Photos & board files
 
